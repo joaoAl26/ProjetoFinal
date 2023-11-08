@@ -1,0 +1,72 @@
+body{
+    background-image: url(/img/gasstation.jpg);
+}
+#nome {
+    text-align: center;
+    font-style:normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255); 
+}
+#eu{
+margin-top: 10cm;
+background-color: rgba(20, 11, 54, 0.781);
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ border-radius: 3ch;
+ margin: 10px auto;
+
+}
+#text{
+color: rgb(255, 255, 255);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+text-align: justify;
+font-size: 25px;
+}
+#text2{
+color: rgb(255, 255, 255);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+text-align: justify;
+font-size: 15px;
+}
+header {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    height: 1.5cm;
+    background: #250155;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+#button{
+   background-color: rgb(42, 10, 71);
+   width: 2.5cm;
+   height: 2cm;
+   align-self: baseline;
+}
+   nav{
+    top: 50px;
+    right: 0;
+ }
+ .navigation_header a{
+    text-decoration: none;
+    color: var(--color-purple);
+    transition: 1s;
+    font-weight: bold;
+ }
+ .navigation_header a:hover{
+    color: var(--color-white);
+ }
+ .active{
+    background: var(color-dark3);
+    padding: 10px;
+    border-radius: 10px;
+ }
+ 
