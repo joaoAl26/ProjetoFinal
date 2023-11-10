@@ -1,4 +1,6 @@
-body{
+@media (min-width:451px){
+
+    body{
     background-image: url(/img/gasstation.jpg);
 }
 .section{
@@ -23,6 +25,10 @@ body{
     text-align: center;
     font-size: 20px;
 }
+#iframe{
+    height: 450px;
+    width: 600px;
+}
 #button{
     background-color: rgb(42, 10, 71);
     width: 2cm;
@@ -30,4 +36,43 @@ body{
     display: flex;
     justify-self: flex-end;
     justify-self: center;
+}
+}
+@media(max-width:450px){
+    body{
+        background-color: rgb(1, 12, 49);
+    }
+    #iframe{
+        width: 8cm; height: 10cm;
+    }
+    .section{
+        background-color: rgba(37, 19, 104, 0.712);
+        border-radius: 3ch;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-sizing: 2cm;
+        height: 13cm;
+        width: 9cm;
+        margin: 10px auto;
+    }
+    #title{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: silver;
+        text-align: center;
+    }
+    #phone{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: silver;
+        text-align: center;
+        font-size: 20px;
+    }
+    #button{
+        background-color: rgb(42, 10, 71);
+        width: 2cm;
+        height: 1.5cm;
+        display: flex;
+        justify-self: flex-end;
+        justify-self: center;
+    }
 }
